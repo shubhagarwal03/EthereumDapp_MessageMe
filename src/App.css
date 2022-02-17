@@ -1,0 +1,98 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
+  
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 700px;
+}
+
+.header {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.bio {
+  text-align: center;
+  color: black;
+  margin-top: 16px;
+}
+
+.waveButton {
+  cursor: pointer;
+  margin-top: 13px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  width:30%;
+  height: 50px ;
+  margin:auto;
+  font-family: futura;
+  font-size: 20px;
+  margin-bottom: 20px;
+  
+}
+
+.ConnectButton {
+  cursor: pointer;
+  margin-top: 13px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  width:30%;
+  height: 75px ;
+  margin:auto;
+  font-family: futura;
+  font-size: 20px;
+  
+}
+
+.textBox{
+
+  margin-top: 16px;
+  margin-bottom: 16px;
+  padding: 10px;
+  border: 10%;
+  width:96%;
+  border-radius: 15px;
+
+}
+
+.messageChange{
+
+  color: white; 
+  font-family: futura;
+}
+.messsageChange{
+
+  color: white; 
+  font-family: futura;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.boomboom {
+  font-family: futura;
+  font-size: 20px;
+}
+
+.waveButton:hover{
+  color:#646464;
+  box-shadow: 0 3px 10px #E6B154;
+}
+.ConnectButton:hover{
+  color:#646464;
+  box-shadow:0 5px 12px #E6B154;
+}
+
+.deez{
+  display: block;
+  font-family: futura;
+}
